@@ -1,0 +1,146 @@
+body{
+    background-color: #25303B;   
+}
+
+.parallax{
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* @media only screen and (max-device-width: 1336px) {
+    .parallax {
+        background-attachment: scroll;  
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-width: 800px) {
+    .parallax {
+        background-attachment: scroll;  
+        width: 800px;
+    }
+} */
+
+.section2
+{
+    background-color:black;
+    background-size: cover;
+    height: 500px;
+    color: whitesmoke;
+}
+
+/* @media only screen and (max-device-width: 1336px) {
+    .section2{
+        background-attachment: scroll;  
+        background-size: cover;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-width: 800px) {
+    .section2 {
+        background-attachment: scroll;  
+        width: 807px;
+    }
+} */
+
+.section3
+{
+    background-color:#312f5b;
+    height: 300px;
+    color: whitesmoke;
+}
+
+.section4
+{
+    background-color:#4b5164;
+    height: 300px;
+    color: whitesmoke;
+}
+
+.section5
+{
+    background-color:grey;
+    height: 300px;
+    color: whitesmoke;
+}
+
+.button1
+{
+    background-color: #06df06;
+    border: 0;
+    box-shadow: 0 8px #009625;
+    font-size: 24pt;
+    padding: 5px 50px !important;
+    border-radius: 10px;
+    color: white;
+}
+
+.button1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.button1:hover{
+    background-color: #00c700;
+}
+
+.button1:active{
+    box-shadow: 0 4px #00681a;
+    transform: translateY(4px);
+}
+
+.button2
+{
+    background-color: #235dd1;
+    border: 0;
+    box-shadow: 0 8px #5277c0;
+    font-size: 24pt;
+    padding: 5px 50px !important;
+    border-radius: 10px;
+    color: white;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: #fff;
+}
+.button2:hover{
+    background-color: #235dd1;
+}
+
+.button2:active{
+    box-shadow: 0 4px #5277c0;
+    transform: translateY(4px);
+}
+
+.socmed{
+    font-size: 30pt;
+    margin: 20px;
+}
+
+.socmed:hover{
+    animation: lompat 0.25s forwards 0s alternate infinite;
+    -webkit-animation: lompat 0.25s forwards 0s alternate infinite;
+}
+
+@keyframes lompat {
+    0%{
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@-webkit-keyframes lompat{
+    0%{
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
